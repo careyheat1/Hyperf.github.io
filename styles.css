@@ -1,0 +1,153 @@
+head {}
+
+body {
+    --primary-color: #151512;
+    --main-text: #D2CAAA;
+    background-color: var(--primary-color);
+
+}
+
+.goldSphereImg {
+    width: 200px;
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+
+h1 {
+    color: var(--main-text);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 60px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 100;
+
+
+}
+
+h2 {
+    color: var(--main-text);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+
+    font-size: 19px;
+}
+
+h3 {
+    color: var(--main-text);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+
+.buttonSection {
+    display: flex;
+    flex-direction: row;
+    color: var(--main-text);
+    justify-content: center;
+    /*text-decoration: none;*/
+    /* justify-content: space-between;*/
+
+}
+
+a {
+    color: #D2CAAA;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid #D2CAAA;
+    margin-left: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    /*how do I remove the underline? answer: text-decoration: none;*/
+}
+
+footer {
+    width: 100%;
+    color: #D2CAAA;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid #D2CAAA;
+    padding-top: 10px;
+
+}
+
+.licenseBody {
+    color: var(--main-text);
+    font-size: 20PX;
+    font-family: 'Red Hat Display', sans-serif;
+
+    pre,
+    code {
+        white-space: pre-line;
+        /* Preserve line breaks */
+    }
+
+    pre::first-line,
+    code::first-line {
+        text-indent: 0;
+        /* Reset text indent */
+    }
+}
+
+.licenseTitle {
+    font-size: 40px;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+.documentationTitle {
+    color: #D2CAAA;
+    font-size: 40px;
+    font-family: 'Red Hat Display', sans-serif;
+    padding-bottom: 20px;
+
+
+}
+
+.documentationBody {
+    color: var(--main-text);
+    font-size: 20PX;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.whatIsHyperf {
+    border: none;
+    white-space: nowrap;
+}
+
+.whereDidTheHyperf {
+    border: none;
+    white-space: nowrap;
+
+}
+
+.linksTitle {
+    color: var(--main-text);
+    font-size: 40px;
+    font-family: 'Red Hat Display', sans-serif;
+    padding-bottom: 20px;
+}
+
+.linksBody {
+    color: var(--main-text);
+    font-size: 20PX;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
