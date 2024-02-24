@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+< lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Downloads</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div class="downloadsTitle">
+            DOWNLOADS
+        </div>
+
+        <div class="parent">
+            <div class="flex-container2">
+                <a href="https://raw.githubusercontent.com/dabronc/hyperf/master/htk.sh"
+                    class="downloadsSideButtons">HYPERF
+                    TOOLKIT</a>
+
+                <p class="homebrewDescription"> HYPERF TOOLKIT is a collection of scripts that optimize the day to day
+                    functions of a Linux expert.
+                </p>
+            </div>
+            <div class="flex-container2">
+                <a href="https://raw.githubusercontent.com/dabronc/hyperf/master/homebrew.booster.sh"
+                    class="downloadsSideButtons">HOMEBREW BOOSTER</a>
+
+                <p class="homebrewDescription">
+                    HOMEBREW BOOSTER is a script that assists the user in setting up a GNU-Unix-like environment that
+                    more closely matches GNU Linux and GNU Cygwin environments. It will back up and auto-configure a
+                    MacOS
+                    environment to behave like
+                    a GNU-Unix environment. It uses Git, Homebrew, and the HTK to do this.
+                </p>
+            </div>
+        </div>
+        <!-- adding a notebook -->
+        <div class="notepad">
+            <div class="notepad-header">
+                <h2>Notepad</h2>
+            </div>
+            <div class="notepad-body" contenteditable="true" id="notepad-body">
+                <!-- This div will contain the editable content -->
+            </div>
+            <!-- adding a copy text button with a notepad -->
+            <p>Click here to copy text to clipboard
+                <button onclick="copyText()">Copy text</button>
+            </p>
+
+            <script>
+                function copyText() {
+                    // Get the notepad body element
+                    var notepadBody = document.getElementById("notepad-body");
+
+                    // Get the text content of the notepad body
+                    var textToCopy = notepadBody.innerText;
+
+                    // Create a textarea element to hold the text temporarily
+                    var textarea = document.createElement("textarea");
+                    textarea.value = textToCopy;
+                    document.body.appendChild(textarea);
+
+                    // Select the text in the textarea
+                    textarea.select();
+                    textarea.setSelectionRange(0, 99999); // For mobile devices
+
+                    // Copy the text inside the textarea to the clipboard
+                    document.execCommand("copy");
+
+                    // Remove the temporary textarea
+                    document.body.removeChild(textarea);
+
+                }
+            </script>
+            <!-- end of adding a copy text button with a notepad-->
+        </div>
+
+    </body>

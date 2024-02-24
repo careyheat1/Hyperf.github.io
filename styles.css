@@ -25,8 +25,6 @@ h1 {
     font-size: 60px;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 100;
-
-
 }
 
 h2 {
@@ -56,8 +54,7 @@ h3 {
     flex-direction: row;
     color: var(--main-text);
     justify-content: center;
-    /*text-decoration: none;*/
-    /* justify-content: space-between;*/
+
 
 }
 
@@ -92,6 +89,7 @@ footer {
     color: var(--main-text);
     font-size: 20PX;
     font-family: 'Red Hat Display', sans-serif;
+    margin-left: 25px;
 
     pre,
     code {
@@ -125,24 +123,18 @@ footer {
     color: var(--main-text);
     font-size: 20PX;
     font-family: 'Red Hat Display', sans-serif;
+    margin-left: 30px;
 }
 
-.whatIsHyperf {
-    border: none;
-    white-space: nowrap;
-}
 
-.whereDidTheHyperf {
-    border: none;
-    white-space: nowrap;
 
-}
 
 .linksTitle {
     color: var(--main-text);
     font-size: 40px;
     font-family: 'Red Hat Display', sans-serif;
     padding-bottom: 20px;
+    margin-left: 45px;
 }
 
 .linksBody {
@@ -150,4 +142,112 @@ footer {
     font-size: 20PX;
     font-family: 'Red Hat Display', sans-serif;
 
+
 }
+
+.docQuestions {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-top: 35px;
+}
+
+strong {
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.linksButtons {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.sideButtons {
+    margin-bottom: 20px;
+    white-space: nowrap;
+    width: 440px;
+    font-family: 'Red Hat Display', sans-serif;
+    border: 1px solid #D2CAAA;
+}
+
+.downloadsTitle {
+    color: var(--main-text);
+    font-size: 40px;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-left: 25px;
+    padding-bottom: 25px;
+}
+
+.parent {
+    margin: auto;
+    max-width: 1000px;
+}
+
+.flex-container2 {
+    color: var(--main-text);
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+.downloadsSideButtons {
+
+    margin: 5px;
+    flex: 0 0 300px;
+    border: 1px solid #D2CAAA;
+    align-self: flex-start;
+    height: fit-content;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.homebrewDescription {
+    align-self: flex-start;
+    flex: 1 1;
+}
+
+/*adding a notepad*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #151512;
+}
+
+.notepad {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #151512;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.notepad-header {
+    border-bottom: 1px solid --main-text;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.notepad-header h2 {
+    margin: 0;
+}
+
+.notepad-body {
+    min-height: 300px;
+    border: 1px solid #D2CAAA;
+    padding: 10px;
+    overflow-y: auto;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #D2CAAA;
+}
+
+/* end of adding a notepad */
