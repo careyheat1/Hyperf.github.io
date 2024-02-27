@@ -11,7 +11,8 @@ body {
     width: 200px;
     display: block;
     margin: auto;
-    padding-top: 10px;
+    margin-top: 30px;
+    border: none;
     /*display: flex;
     justify-content: center;
     align-items: center;*/
@@ -115,8 +116,13 @@ footer {
     font-size: 40px;
     font-family: 'Red Hat Display', sans-serif;
     padding-bottom: 20px;
+}
 
-
+.goldSphereImgLic {
+    width: 200px;
+    padding-top: 25px;
+    margin-left: 25px;
+    border: none;
 }
 
 .documentationBody {
@@ -126,7 +132,13 @@ footer {
     margin-left: 30px;
 }
 
-
+.goldSphereImgDoc {
+    justify-content: left;
+    margin-left: 10px;
+    width: 200px;
+    padding-top: 20px;
+    border: none;
+}
 
 
 .linksTitle {
@@ -141,8 +153,13 @@ footer {
     color: var(--main-text);
     font-size: 20PX;
     font-family: 'Red Hat Display', sans-serif;
+}
 
-
+.goldSphereImgLin {
+    margin-left: 400px;
+    width: 200px;
+    padding-top: 20px;
+    border: none;
 }
 
 .docQuestions {
