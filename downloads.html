@@ -9,7 +9,7 @@
 
     <body>
         <div class="downloadsTitle">
-            <a href="index.html" class="goldSphereImg"> <img src="assets/sphereGold.png" alt="Sphere"
+            <a href="index.html" class="goldSphereImgDow"> <img src="assets/sphereGold.png" alt="Sphere"
                     class="goldSphereImg"></a>
         </div>
 
@@ -44,11 +44,21 @@
             </div>
             <div class="notepad-body" contenteditable="true" id="notepad-body">
                 <!-- This div will contain the editable content -->
+
             </div>
             <!-- adding a copy text button with a notepad -->
             <p>
                 <button onclick="copyText()" class="copyTextButton">Copy text</button>
             </p>
+
+
+            <script>
+                document.getElementById('notepad-body').addEventListener('paste', function (event) {
+                    event.preventDefault();
+                    var text = (event.originalEvent || event).clipboardData.getData('text/plain');
+                    document.execCommand('insertText', false, text);
+                });
+            </script>
 
             <script>
                 function copyText() {
@@ -75,6 +85,8 @@
 
                 }
             </script>
+
+
             <!-- end of adding a copy text button with a notepad-->
         </div>
 

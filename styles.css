@@ -194,7 +194,6 @@ strong {
 
 .goldSphereImgDow {
     width: 200px;
-
     margin: auto;
     border: none;
 }
@@ -242,6 +241,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #151512;
+
 }
 
 .notepad {
@@ -273,6 +273,7 @@ body {
     line-height: 1.5;
     color: #D2CAAA;
     background-color: var(--primary-color);
+
 }
 
 .copyTextButton {
