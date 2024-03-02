@@ -1,0 +1,276 @@
+head {}
+
+body {
+    --primary-color: #151512;
+    --main-text: #D2CAAA;
+    background-color: var(--primary-color);
+
+}
+
+.goldSphereImg {
+    width: 200px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    border: none;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+
+h1 {
+    color: var(--main-text);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 60px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 100;
+}
+
+h2 {
+    color: var(--main-text);
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+
+    font-size: 19px;
+}
+
+h3 {
+    color: var(--main-text);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+.buttonSection {
+    display: flex;
+    flex-direction: row;
+    color: var(--main-text);
+    justify-content: center;
+
+
+}
+
+a {
+    color: #D2CAAA;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid #D2CAAA;
+    margin-left: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    /*how do I remove the underline? answer: text-decoration: none;*/
+}
+
+footer {
+    width: 100%;
+    color: #D2CAAA;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid #D2CAAA;
+    padding-top: 10px;
+
+}
+
+.licenseBody {
+    color: var(--main-text);
+    font-size: 20PX;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-left: 25px;
+
+    pre,
+    code {
+        white-space: pre-line;
+        /* Preserve line breaks */
+    }
+
+    pre::first-line,
+    code::first-line {
+        text-indent: 0;
+        /* Reset text indent */
+    }
+}
+
+.licenseTitle {
+    font-size: 40px;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+.documentationTitle {
+    color: #D2CAAA;
+    font-size: 40px;
+    font-family: 'Red Hat Display', sans-serif;
+    padding-bottom: 20px;
+}
+
+.goldSphereImgLic {
+    width: 200px;
+    padding-top: 25px;
+    margin-left: 25px;
+    border: none;
+}
+
+.documentationBody {
+    color: var(--main-text);
+    font-size: 20PX;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-left: 30px;
+}
+
+.goldSphereImgDoc {
+    justify-content: left;
+    margin-left: 10px;
+    width: 200px;
+    padding-top: 20px;
+    border: none;
+}
+
+
+.linksTitle {
+    color: var(--main-text);
+    font-size: 40px;
+    font-family: 'Red Hat Display', sans-serif;
+    padding-bottom: 20px;
+    margin-left: 45px;
+}
+
+.linksBody {
+    color: var(--main-text);
+    font-size: 20PX;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.goldSphereImgLin {
+    margin-left: 400px;
+    width: 200px;
+    padding-top: 20px;
+    border: none;
+}
+
+.docQuestions {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-top: 35px;
+}
+
+strong {
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.linksButtons {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.sideButtons {
+    margin-bottom: 20px;
+    white-space: nowrap;
+    width: 440px;
+    font-family: 'Red Hat Display', sans-serif;
+    border: 1px solid #D2CAAA;
+}
+
+.downloadsTitle {
+    color: var(--main-text);
+    font-size: 40px;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-left: 25px;
+    padding-bottom: 25px;
+}
+
+.parent {
+    margin: auto;
+    max-width: 1000px;
+}
+
+.flex-container2 {
+    color: var(--main-text);
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+.downloadsSideButtons {
+
+    margin: 5px;
+    flex: 0 0 300px;
+    border: 1px solid #D2CAAA;
+    align-self: flex-start;
+    height: fit-content;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.homebrewDescription {
+    align-self: flex-start;
+    flex: 1 1;
+}
+
+/*adding a notepad*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #151512;
+}
+
+.notepad {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #151512;
+    color: #D2CAAA;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.notepad-header {
+    border-bottom: 1px solid --main-text;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.notepad-header h2 {
+    margin: 0;
+}
+
+.notepad-body {
+    min-height: 300px;
+    border: 1px solid #D2CAAA;
+    padding: 10px;
+    overflow-y: auto;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #D2CAAA;
+    background-color: var(--primary-color);
+}
+
+.copyTextButton {
+    color: #151512;
+    background-color: #D2CAAA;
+    margin-left: 260px;
+
+    /* end of adding a notepad */
