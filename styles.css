@@ -192,6 +192,13 @@ strong {
     border: 1px solid #D2CAAA;
 }
 
+.goldSphereImgDow {
+    width: 200px;
+
+    margin: auto;
+    border: none;
+}
+
 .downloadsTitle {
     color: var(--main-text);
     font-size: 40px;
